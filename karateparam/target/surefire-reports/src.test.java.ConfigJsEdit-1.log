@@ -1,0 +1,3 @@
+03:21:28.923 karate.env system property was: null 
+03:21:28.981 [print] the value of categoryName is: Current_Category
+03:21:28.988 [print] New value is  new_category

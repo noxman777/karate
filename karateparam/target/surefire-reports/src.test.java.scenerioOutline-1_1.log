@@ -1,0 +1,41 @@
+16:33:52.781 karate.env system property was: null 
+16:33:53.328 request:
+1 > POST http://103.79.223.60:8080/hooker/core/v1/categories
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 53
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 103.79.223.60:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_144)
+{"categoryName":"test1","categoryDescription":"tes2"}
+
+16:33:53.419 response time in milliseconds: 89.96
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 14 Jun 2019 11:03:53 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"success":true,"message":"categories added.","data":{"categoryId":"b26899f9-70c1-4e58-89d6-b17d2f9e715f","categoryName":"test1","categoryDescription":"tes2","createdDate":1560468833000,"updatedDate":1560468833000},"errorCode":null,"extras":{},"successCode":"CATEGORIES_CREATE_SUCCESS","paramErrors":null}
+
+16:33:53.423 [print] The response is : {
+  "success": true,
+  "message": "categories added.",
+  "data": {
+    "categoryId": "b26899f9-70c1-4e58-89d6-b17d2f9e715f",
+    "categoryName": "test1",
+    "categoryDescription": "tes2",
+    "createdDate": 1560468833000,
+    "updatedDate": 1560468833000
+  },
+  "errorCode": null,
+  "extras": {
+  },
+  "successCode": "CATEGORIES_CREATE_SUCCESS",
+  "paramErrors": null
+}
+

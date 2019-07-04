@@ -1,0 +1,25 @@
+14:37:50.075 karate.env system property was: stage 
+14:37:50.083 request:
+1 > POST http://103.79.223.60:8080/hooker/core/v1/categories
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 103.79.223.60:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_144)
+{"categoryName":"test","categoryDescription":"test"}
+
+14:37:50.178 response time in milliseconds: 95.23
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 14 Jun 2019 09:07:50 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"success":true,"message":"categories added.","data":{"categoryId":"a4cd0592-66f7-4027-a6e3-efe962543d46","categoryName":"test","categoryDescription":"test","createdDate":1560461870000,"updatedDate":1560461870000},"errorCode":null,"extras":{},"successCode":"CATEGORIES_CREATE_SUCCESS","paramErrors":null}
+
+/all, response: {"timestamp":1560503064609,"status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/hooker/core/v1/categories/all"}

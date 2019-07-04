@@ -1,0 +1,41 @@
+15:33:34.703 karate.env system property was: null 
+15:33:35.254 request:
+1 > POST http://103.79.223.60:8080/hooker/core/v1/categories
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 103.79.223.60:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_144)
+{"categoryName":"test","categoryDescription":"test"}
+
+15:33:35.375 response time in milliseconds: 119.92
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 14 Jun 2019 10:03:35 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"success":true,"message":"categories added.","data":{"categoryId":"b3c69fcd-879c-4dae-8406-441227d7ec36","categoryName":"test","categoryDescription":"test","createdDate":1560465215000,"updatedDate":1560465215000},"errorCode":null,"extras":{},"successCode":"CATEGORIES_CREATE_SUCCESS","paramErrors":null}
+
+15:33:35.392 [print] the value of response.cat is: 
+5:08:55.554 failed function body: function(args) {
+ var DataStorage = Java.type('examples.DataStorage');
+ var dS = new DataStorage();
+ return dS.write(args);
+}
+ function body: function(args) {
+ var DataStorage = Java.type('examples.DataStorage');
+ var dS = new DataStorage();
+ return dS.write(args);
+}
+nosniff]
+1 < X-Frame-Options: [DENY, DENY]
+1 < X-XSS-Protection: 1; mode=block
+{"error":"unauthorized","error_description":"Username is not found"}
+
+15:00:54.523 status code was: 401, expected: 200, response time: 2408, url: https://account.loadium.com/uaa/oauth/token?grant_type=password&password=PASS&username=USER&scope=openid, response: {"error":"unauthorized","error_description":"Username is not found"}

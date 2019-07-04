@@ -1,0 +1,14 @@
+03:03:24.424 karate.env system property was: null 
+03:03:24.480 [print] the value of myJson is: my.app.id
+03:03:24.487 [print] New value is  my.new.appId
+categories",
+  "URL_GET": "http://103.79.223.60:8080/hooker/core/v1/categories/all",
+  "data": {
+    "cur_cat": "June_18_Category",
+    "cur_desc": "June_18_Category_description"
+  },
+  "contenType": {
+    "Content-Type": "application/json"
+  }
+}
+

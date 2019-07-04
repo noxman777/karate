@@ -1,0 +1,13 @@
+02:14:42.022 karate.env system property was: stage 
+02:14:42.036 [print] the value of myJson is: {
+  "URL_POST": "http://103.79.223.60:8080/hooker/core/v1/categories",
+  "URL_GET": "http://103.79.223.60:8080/hooker/core/v1/categories/all",
+  "data": {
+    "categoryName": "June_18_Category",
+    "categoryDescription": "June_18_Category_description"
+  },
+  "contenType": {
+    "Content-Type": "application/json"
+  }
+}
+

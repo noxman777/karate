@@ -1,0 +1,29 @@
+02:53:47.742 karate.env system property was: null 
+02:53:47.797 [print] the value of myJson is: {
+  "URL_POST": "http://103.79.223.60:8080/hooker/core/v1/categories",
+  "URL_GET": "http://103.79.223.60:8080/hooker/core/v1/categories/all",
+  "data": {
+    "cur_cat": "",
+    "cur_desc": ""
+  },
+  "contenType": {
+    "Content-Type": "application/json"
+  }
+}
+
+02:53:47.810 [print] the value of myJson is: {
+  "URL_POST": "http://103.79.223.60:8080/hooker/core/v1/categories",
+  "URL_GET": "http://103.79.223.60:8080/hooker/core/v1/categories/all",
+  "data": {
+    "cur_cat": "June_19_Category",
+    "cur_desc": "June_19_Category_description"
+  },
+  "contenType": {
+    "Content-Type": "application/json"
+  }
+}
+
+  "Content-Type": "application/json"
+  }
+}
+
