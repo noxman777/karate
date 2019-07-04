@@ -1,0 +1,2 @@
+Feature: AuthorizationToken
+  Scenario: Auth

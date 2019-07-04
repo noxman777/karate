@@ -1,0 +1,40 @@
+12:31:26.865 karate.env system property was: null 
+12:31:26.919 [print] the value of txt is: [
+  {
+    "categoryName": "test",
+    "categoryDescription": "test",
+    "URL": "http://103.79.223.60:8080/hooker/core/v1/categories"
+  }
+]
+
+12:31:26.930 [print] the value of txt.cat is: {
+  "categoryName": "test",
+  "categoryDescription": "test",
+  "URL": "http://103.79.223.60:8080/hooker/core/v1/categories"
+}
+
+12:31:26.941 [print] request:
+12:31:27.451 request:
+1 > POST http://103.79.223.60:8080/hooker/core/v1/categories
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 103.79.223.60:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_144)
+{"categoryName":"csv[0].categoryName","categoryDescription":"csv[0].categoryDescription"}
+
+12:31:28.091 response time in milliseconds: 639.44
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 14 Jun 2019 07:01:28 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"success":true,"message":"categories added.","data":{"categoryId":"4f9fe485-6dc5-43f6-8eef-fa288212a383","categoryName":"csv[0].categoryName","categoryDescription":"csv[0].categoryDescription","createdDate":1560454287000,"updatedDate":1560454287000},"errorCode":null,"extras":{},"successCode":"CATEGORIES_CREATE_SUCCESS","paramErrors":null}
+
+418 status code was: 400, expected: 200, response time: 32, url: http://103.79.223.60:8080/hooker/core/v1/categories, response: {"timestamp":1560495216428,"status":400,"error":"Bad Request","message":"JSON parse error: Unrecognized token 'test': was expecting 'null', 'true', 'false' or NaN; nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'test': was expecting 'null', 'true', 'false' or NaN\n at [Source: (PushbackInputStream); line: 1, column: 9]","path":"/hooker/core/v1/categories"}

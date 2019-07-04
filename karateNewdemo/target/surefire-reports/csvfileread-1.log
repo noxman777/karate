@@ -1,0 +1,39 @@
+12:16:51.170 karate.env system property was: null 
+12:59:38.549 [print] the value of txt is: [
+  {
+    "categoryName": "test",
+    "categoryDescription": "test",
+    "URL": "http://103.79.223.60:8080/hooker/core/v1/categories"
+  }
+]
+
+12:59:38.557 [print] the value of txt.cat is: {
+  "categoryName": "test",
+  "categoryDescription": "test",
+  "URL": "http://103.79.223.60:8080/hooker/core/v1/categories"
+}
+
+12:59:38.567 [print] request:
+12:59:39.075 request:
+1 > POST http://103.79.223.60:8080/hooker/core/v1/categories
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 89
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 103.79.223.60:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_144)
+{"categoryName":"csv[0].categoryName","categoryDescription":"csv[0].categoryDescription"}
+
+12:59:39.264 response time in milliseconds: 180.46
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 14 Jun 2019 07:29:39 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"success":true,"message":"categories added.","data":{"categoryId":"d4fcd189-d334-46fc-b5d1-03abcf2f98c4","categoryName":"csv[0].categoryName","categoryDescription":"csv[0].categoryDescription","createdDate":1560455979000,"updatedDate":1560455979000},"errorCode":null,"extras":{},"successCode":"CATEGORIES_CREATE_SUCCESS","paramErrors":null}
+

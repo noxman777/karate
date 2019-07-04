@@ -1,0 +1,22 @@
+<testsuite failures="0" name="test.feature" skipped="0" tests="1" time="0.724131">
+  <testcase classname="test" name="Verify Create Category" time="0.724131">
+    <system-out>Given def myJson = read('file:C:/Users/cy0099/IdeaProjects/karateNewdemo/src/test/java/utils/test.json') . passed
+* print 'the value of myJson is:', myJson ................................. passed
+* print 'the value of myJson.cat is:', myJson.data.categoryName ........... passed
+And url myJson.URL_POST ................................................... passed
+And request myJson.data ................................................... passed
+And headers myJson.contenType ............................................. passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* def res = response ...................................................... passed
+* def prevCategoryId = res.data.categoryId ................................ passed
+* print 'response:', response ............................................. passed
+* print 'categoryId:', prevCategoryId ..................................... passed
+Given url myJson.URL_GET .................................................. passed
+When method Get ........................................................... passed
+Then status 200 ........................................................... passed
+And match response.data.response.*.categoryId contains prevCategoryId ..... passed
+* def t = response ........................................................ passed
+* print 'response:', t .................................................... passed</system-out>
+  </testcase>
+</testsuite>

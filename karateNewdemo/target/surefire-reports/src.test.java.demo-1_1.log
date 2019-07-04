@@ -1,0 +1,155 @@
+17:31:59.074 karate.env system property was: null 
+17:32:01.198 [print] {
+  "__num": 0,
+  "auth": "Basic ZGV2OmZBTkJPd00zTG1wdGZnVmtPelJBWVE9PQ==",
+  "WritePropertyFile": {
+  },
+  "__loop": -1,
+  "result": null,
+  "__arg": null,
+  "password": "mhrulez",
+  "someUrlBase": "https://ray.mhqa.pub:8443/heartbeat/icapi",
+  "appId": "my.app.id",
+  "__row": {
+    "usrname": "dev",
+    "paswd": "mhrulez"
+  },
+  "responseCookies": {
+    "BIGipServerDAVQAHA-Ray_8080": {
+      "name": "BIGipServerDAVQAHA-Ray_8080",
+      "value": "2013989386.36895.0000",
+      "domain": "ray.mhqa.pub",
+      "path": "/",
+      "persistent": "false",
+      "secure": "true"
+    }
+  },
+  "responseTime": 1477,
+  "ConctinateTwoStrings": {
+  },
+  "formatGivenDate": {
+  },
+  "responseStatus": 200,
+  "usrname": "dev",
+  "token": "Basic ZGV2OmZBTkJPd00zTG1wdGZnVmtPelJBWVE9PQ==",
+  "access_token": "440f63fb-0686-4977-a266-b1f9531625be",
+  "responseHeaders": {
+    "Cache-Control": [
+      "no-store"
+    ],
+    "Pragma": [
+      "no-cache"
+    ],
+    "Access-Control-Allow-Origin": [
+      "*"
+    ],
+    "Access-Control-Allow-Headers": [
+      "Content-Type, api_key, Authorization, Checksum"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Content-Length": [
+      "96"
+    ],
+    "Date": [
+      "Tue, 25 Jun 2019 12:02:00 GMT"
+    ],
+    "Set-Cookie": [
+      "BIGipServerDAVQAHA-Ray_8080=2013989386.36895.0000; path=/; Httponly; Secure"
+    ]
+  },
+  "response": {
+    "access_token": "440f63fb-0686-4977-a266-b1f9531625be",
+    "token_type": "Bearer",
+    "expires_in": 86400
+  },
+  "paswd": "mhrulez",
+  "anotherUrlBase": "https://another-host.com/v1/",
+  "ReadPropertyFile": {
+  },
+  "requestTimeStamp": 1561464119666,
+  "appSecret": "my.secret",
+  "expiry_time": 86400,
+  "BasicToken": {
+  },
+  "username": "dev"
+}
+
+ServerDAVQAHA-Ray_8080": {
+        "name": "BIGipServerDAVQAHA-Ray_8080",
+        "value": "2013989386.36895.0000",
+        "domain": "ray.mhqa.pub",
+        "path": "/",
+        "persistent": "false",
+        "secure": "true"
+      }
+    },
+    "responseTime": 1406,
+    "ConctinateTwoStrings": {
+    },
+    "formatGivenDate": {
+    },
+    "responseStatus": 200,
+    "usrname": "dev",
+    "token": "Basic ZGV2OmZBTkJPd00zTG1wdGZnVmtPelJBWVE9PQ==",
+    "access_token": "8b0f21de-815d-48d9-8845-85cf587dbe8a",
+    "responseHeaders": {
+      "Cache-Control": [
+        "no-store"
+      ],
+      "Pragma": [
+        "no-cache"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Content-Type, api_key, Authorization, Checksum"
+      ],
+      "Content-Type": [
+        "application/json"
+      ],
+      "Content-Length": [
+        "96"
+      ],
+      "Date": [
+        "Tue, 25 Jun 2019 11:42:24 GMT"
+      ],
+      "Set-Cookie": [
+        "BIGipServerDAVQAHA-Ray_8080=2013989386.36895.0000; path=/; Httponly; Secure"
+      ]
+    },
+    "response": {
+      "access_token": "8b0f21de-815d-48d9-8845-85cf587dbe8a",
+      "token_type": "Bearer",
+      "expires_in": 86400
+    },
+    "paswd": "mhrulez",
+    "anotherUrlBase": "https://another-host.com/v1/",
+    "ReadPropertyFile": {
+    },
+    "requestTimeStamp": 1561462942993,
+    "appSecret": "my.secret",
+    "expiry_time": 86400,
+    "BasicToken": {
+    },
+    "username": "dev"
+  },
+  "response": {
+    "access_token": "8ea065c4-4c41-4f47-a685-75b3107fdf32",
+    "token_type": "Bearer",
+    "expires_in": 86400
+  },
+  "paswd": "mhrulez",
+  "anotherUrlBase": "https://another-host.com/v1/",
+  "ReadPropertyFile": {
+  },
+  "requestTimeStamp": 1561462944442,
+  "appSecret": "my.secret",
+  "expiry_time": 86400,
+  "BasicToken": {
+  },
+  "username": "binu1"
+}
+

@@ -1,0 +1,32 @@
+18:00:53.776 karate.env system property was: null 
+18:00:54.055 request:
+1 > POST https://ray.mhqa.pub:8443/heartbeat/icapi/open/auth
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YmludTE6TTYvejQ2M2REMHkwTmVZSFRTVUdBdz09
+1 > Connection: Keep-Alive
+1 > Content-Length: 29
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: ray.mhqa.pub:8443
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_144)
+grant_type=client_credentials
+
+18:00:55.566 response time in milliseconds: 1511.26
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization, Checksum
+1 < Access-Control-Allow-Origin: *
+1 < Cache-Control: no-store
+1 < Content-Length: 96
+1 < Content-Type: application/json
+1 < Date: Fri, 21 Jun 2019 12:30:55 GMT
+1 < Pragma: no-cache
+1 < Set-Cookie: BIGipServerDAVQAHA-Ray_8080=2013989386.36895.0000; path=/; Httponly; Secure
+{"access_token":"e831cc81-7edb-4159-b912-8207a80060e7","token_type":"Bearer","expires_in":86400}
+
+18:00:55.570 [print] response: {
+  "access_token": "e831cc81-7edb-4159-b912-8207a80060e7",
+  "token_type": "Bearer",
+  "expires_in": 86400
+}
+
+esponse: {"error":"invalid_client","error_description":"Please scan again or login manually."}
+llPointerException","userMsg":"Internal Server Error"}

@@ -1,0 +1,14 @@
+{
+  "URL_POST": "http://103.79.223.60:8080/hooker/core/v1/categories",
+  "URL_GET": "http://103.79.223.60:8080/hooker/core/v1/categories/all",
+  "data": {
+    "categoryName": "test",
+    "categoryDescription": "test"
+  },
+
+"contenType": {
+  "Content-Type" :"application/json"
+}
+
+
+}

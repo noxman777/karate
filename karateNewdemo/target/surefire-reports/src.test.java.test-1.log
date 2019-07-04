@@ -1,0 +1,751 @@
+12:21:44.178 karate.env system property was: null 
+12:21:44.228 [print] the value of myJson is: {
+  "URL_POST": "http://103.79.223.60:8080/hooker/core/v1/categories",
+  "URL_GET": "http://103.79.223.60:8080/hooker/core/v1/categories/all",
+  "data": {
+    "categoryName": "test",
+    "categoryDescription": "test"
+  },
+  "contenType": {
+    "Content-Type": "application/json"
+  }
+}
+
+12:21:44.470 request:
+1 > GET http://103.79.223.60:8080/hooker/core/v1/categories/all
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 103.79.223.60:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_144)
+
+12:21:44.510 response time in milliseconds: 36.92
+1 < 401
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Mon, 01 Jul 2019 06:51:44 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":1561963904502,"status":401,"error":"Unauthorized","message":"Access is denied","path":"/hooker/core/v1/categories/all"}
+
+12:21:44.512 status code was: 401, expected: 200, response time: 37, url: http://103.79.223.60:8080/hooker/core/v1/categories/all, response: {"timestamp":1561963904502,"status":401,"error":"Unauthorized","message":"Access is denied","path":"/hooker/core/v1/categories/all"}
+ooker/core/v1/categories, response: {"timestamp":1561963843014,"status":401,"error":"Unauthorized","message":"Access is denied","path":"/hooker/core/v1/categories"}
+ata": {
+    "categoryId": "1a825f6f-5886-4f08-a9d5-62b36b231ea7",
+    "categoryName": "test",
+    "categoryDescription": "test",
+    "createdDate": 1560990404000,
+    "updatedDate": 1560990404000
+  },
+  "errorCode": null,
+  "extras": {
+  },
+  "successCode": "CATEGORIES_CREATE_SUCCESS",
+  "paramErrors": null
+}
+
+17:26:44.166 [print] categoryId: 1a825f6f-5886-4f08-a9d5-62b36b231ea7
+17:26:44.169 request:
+2 > GET http://103.79.223.60:8080/hooker/core/v1/categories/all
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: 103.79.223.60:8080
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_144)
+
+17:26:44.178 response time in milliseconds: 8.18
+2 < 200
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Content-Type: application/json;charset=UTF-8
+2 < Date: Thu, 20 Jun 2019 11:56:44 GMT
+2 < Expires: 0
+2 < Pragma: no-cache
+2 < Transfer-Encoding: chunked
+2 < X-Content-Type-Options: nosniff
+2 < X-Frame-Options: DENY
+2 < X-XSS-Protection: 1; mode=block
+{"success":true,"message":"Categories fetch success","data":{"response":[{"categoryId":"56ff25f1-02f3-444c-9a7d-604e14680337","categoryName":"test111","categoryDescription":"test","createdDate":1560972462000,"updatedDate":1560972462000},{"categoryId":"f6a6a531-8638-45d3-868b-aa4a5365970e","categoryName":"test","categoryDescription":"test","createdDate":1560973616000,"updatedDate":1560973616000},{"categoryId":"e59e20b5-5398-4986-92d7-bd6b11d7011b","categoryName":"test","categoryDescription":"test","createdDate":1560975147000,"updatedDate":1560975147000},{"categoryId":"095858ea-3ea3-4b42-8962-09802ebcf14a","categoryName":"test","categoryDescription":"test","createdDate":1560975525000,"updatedDate":1560975525000},{"categoryId":"88036928-1322-4fa6-aeaa-b4c41fcb2cc2","categoryName":"test","categoryDescription":"test","createdDate":1560975752000,"updatedDate":1560975752000},{"categoryId":"066d35bb-959a-4ee0-babd-46c33ca3aefe","categoryName":"test","categoryDescription":"test","createdDate":1560975824000,"updatedDate":1560975824000},{"categoryId":"237b40eb-83c1-4f57-a112-8d5d7002c2d6","categoryName":"test","categoryDescription":"test","createdDate":1560979406000,"updatedDate":1560979406000},{"categoryId":"6fca7fc0-0edf-4b91-9b1e-e85f0606d0df","categoryName":"test","categoryDescription":"test","createdDate":1560981331000,"updatedDate":1560981331000},{"categoryId":"70c913d9-920b-4109-b4ad-30eb583c462d","categoryName":"test","categoryDescription":"test","createdDate":1560981563000,"updatedDate":1560981563000},{"categoryId":"e4690f2a-76ea-433a-a881-234780dbe733","categoryName":"test","categoryDescription":"test","createdDate":1560983083000,"updatedDate":1560983083000},{"categoryId":"74abdb41-f0d7-43aa-a297-50afed5c52ea","categoryName":"test","categoryDescription":"test","createdDate":1560983390000,"updatedDate":1560983390000},{"categoryId":"c5bcf741-9b15-40cd-a11b-1b1e4e84c1b4","categoryName":"test","categoryDescription":"test","createdDate":1560983396000,"updatedDate":1560983396000},{"categoryId":"bccabc98-7fce-4f53-9640-fe3a3d82a58f","categoryName":"test","categoryDescription":"test","createdDate":1560983409000,"updatedDate":1560983409000},{"categoryId":"37f5dd50-a6c4-499f-9c3e-912224930588","categoryName":"test","categoryDescription":"test","createdDate":1560983424000,"updatedDate":1560983424000},{"categoryId":"118cc011-12d1-4cd3-8ccd-6a39668f418a","categoryName":"test","categoryDescription":"test","createdDate":1560983962000,"updatedDate":1560983962000},{"categoryId":"f7e8d5fd-d786-41d9-aa6f-637a81947ea0","categoryName":"test","categoryDescription":"test","createdDate":1560984145000,"updatedDate":1560984145000},{"categoryId":"829a524d-7b8b-453a-a9ef-a3dcefcad083","categoryName":"test","categoryDescription":"test","createdDate":1560984191000,"updatedDate":1560984191000},{"categoryId":"42f15573-e089-422b-a0f3-058304345a44","categoryName":"test","categoryDescription":"test","createdDate":1560984228000,"updatedDate":1560984228000},{"categoryId":"91c9d5bc-94d6-4e91-a35e-40c548a00151","categoryName":"test","categoryDescription":"test","createdDate":1560984834000,"updatedDate":1560984834000},{"categoryId":"28d5d2ae-80f8-4164-ad90-6580f6758d27","categoryName":"test","categoryDescription":"test","createdDate":1560984982000,"updatedDate":1560984982000},{"categoryId":"6dfbbd85-d038-41a8-a68d-9cd0193fc9fa","categoryName":"test","categoryDescription":"test","createdDate":1560987460000,"updatedDate":1560987460000},{"categoryId":"1a825f6f-5886-4f08-a9d5-62b36b231ea7","categoryName":"test","categoryDescription":"test","createdDate":1560990404000,"updatedDate":1560990404000}]},"errorCode":null,"extras":{},"successCode":"CATEGORIES_FETCH_SUCCESS","paramErrors":null}
+
+17:26:44.183 [print] response: {
+  "success": true,
+  "message": "Categories fetch success",
+  "data": {
+    "response": [
+      {
+        "categoryId": "56ff25f1-02f3-444c-9a7d-604e14680337",
+        "categoryName": "test111",
+        "categoryDescription": "test",
+        "createdDate": 1560972462000,
+        "updatedDate": 1560972462000
+      },
+      {
+        "categoryId": "f6a6a531-8638-45d3-868b-aa4a5365970e",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560973616000,
+        "updatedDate": 1560973616000
+      },
+      {
+        "categoryId": "e59e20b5-5398-4986-92d7-bd6b11d7011b",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560975147000,
+        "updatedDate": 1560975147000
+      },
+      {
+        "categoryId": "095858ea-3ea3-4b42-8962-09802ebcf14a",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560975525000,
+        "updatedDate": 1560975525000
+      },
+      {
+        "categoryId": "88036928-1322-4fa6-aeaa-b4c41fcb2cc2",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560975752000,
+        "updatedDate": 1560975752000
+      },
+      {
+        "categoryId": "066d35bb-959a-4ee0-babd-46c33ca3aefe",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560975824000,
+        "updatedDate": 1560975824000
+      },
+      {
+        "categoryId": "237b40eb-83c1-4f57-a112-8d5d7002c2d6",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560979406000,
+        "updatedDate": 1560979406000
+      },
+      {
+        "categoryId": "6fca7fc0-0edf-4b91-9b1e-e85f0606d0df",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560981331000,
+        "updatedDate": 1560981331000
+      },
+      {
+        "categoryId": "70c913d9-920b-4109-b4ad-30eb583c462d",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560981563000,
+        "updatedDate": 1560981563000
+      },
+      {
+        "categoryId": "e4690f2a-76ea-433a-a881-234780dbe733",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560983083000,
+        "updatedDate": 1560983083000
+      },
+      {
+        "categoryId": "74abdb41-f0d7-43aa-a297-50afed5c52ea",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560983390000,
+        "updatedDate": 1560983390000
+      },
+      {
+        "categoryId": "c5bcf741-9b15-40cd-a11b-1b1e4e84c1b4",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560983396000,
+        "updatedDate": 1560983396000
+      },
+      {
+        "categoryId": "bccabc98-7fce-4f53-9640-fe3a3d82a58f",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560983409000,
+        "updatedDate": 1560983409000
+      },
+      {
+        "categoryId": "37f5dd50-a6c4-499f-9c3e-912224930588",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560983424000,
+        "updatedDate": 1560983424000
+      },
+      {
+        "categoryId": "118cc011-12d1-4cd3-8ccd-6a39668f418a",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560983962000,
+        "updatedDate": 1560983962000
+      },
+      {
+        "categoryId": "f7e8d5fd-d786-41d9-aa6f-637a81947ea0",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560984145000,
+        "updatedDate": 1560984145000
+      },
+      {
+        "categoryId": "829a524d-7b8b-453a-a9ef-a3dcefcad083",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560984191000,
+        "updatedDate": 1560984191000
+      },
+      {
+        "categoryId": "42f15573-e089-422b-a0f3-058304345a44",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560984228000,
+        "updatedDate": 1560984228000
+      },
+      {
+        "categoryId": "91c9d5bc-94d6-4e91-a35e-40c548a00151",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560984834000,
+        "updatedDate": 1560984834000
+      },
+      {
+        "categoryId": "28d5d2ae-80f8-4164-ad90-6580f6758d27",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560984982000,
+        "updatedDate": 1560984982000
+      },
+      {
+        "categoryId": "6dfbbd85-d038-41a8-a68d-9cd0193fc9fa",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560987460000,
+        "updatedDate": 1560987460000
+      },
+      {
+        "categoryId": "1a825f6f-5886-4f08-a9d5-62b36b231ea7",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560990404000,
+        "updatedDate": 1560990404000
+      }
+    ]
+  },
+  "errorCode": null,
+  "extras": {
+  },
+  "successCode": "CATEGORIES_FETCH_SUCCESS",
+  "paramErrors": null
+}
+
+"4fcae878-265f-4ddc-84f8-165516f507d7","categoryName":"test","categoryDescription":"test","createdDate":1560378837000,"updatedDate":1560378837000},{"categoryId":"e543e2b7-7630-44ff-a5eb-52fd924a6d23","categoryName":"test","categoryDescription":"test","createdDate":1560378868000,"updatedDate":1560378868000},{"categoryId":"7faab862-e14a-40a9-8c53-e9ff33b6aebf","categoryName":"test","categoryDescription":"test","createdDate":1560378938000,"updatedDate":1560378938000},{"categoryId":"206171a5-2e83-42dd-a8ef-d3bc7f030fe5","categoryName":"test","categoryDescription":"test","createdDate":1560378979000,"updatedDate":1560378979000},{"categoryId":"a38e4d7b-9f8e-468d-ab0c-87d025a19f57","categoryName":"test","categoryDescription":"test","createdDate":1560379095000,"updatedDate":1560379095000},{"categoryId":"f9a9f6c5-8d81-4e4c-8da8-457270459924","categoryName":"test","categoryDescription":"test","createdDate":1560379150000,"updatedDate":1560379150000},{"categoryId":"5ad4546f-3a87-4940-b249-1d9046433a52","categoryName":"test","categoryDescription":"test","createdDate":1560379341000,"updatedDate":1560379341000},{"categoryId":"5dfe2ff2-f933-4537-8e5f-c4250a86e93c","categoryName":"test","categoryDescription":"test","createdDate":1560380102000,"updatedDate":1560380102000},{"categoryId":"bdaf8e5a-7247-4a94-b232-fb1e6989cab8","categoryName":"test","categoryDescription":"test","createdDate":1560380271000,"updatedDate":1560380271000},{"categoryId":"f3427618-20a5-4cfd-83f4-8394b8c0b392","categoryName":"test","categoryDescription":"test","createdDate":1560380352000,"updatedDate":1560380352000},{"categoryId":"f51e3d0d-31e1-4a02-a0d8-f65eed2af66d","categoryName":"test","categoryDescription":"test","createdDate":1560380462000,"updatedDate":1560380462000},{"categoryId":"8569f807-b930-46da-bf5f-d73030875a7e","categoryName":"test","categoryDescription":"test","createdDate":1560380586000,"updatedDate":1560380586000},{"categoryId":"d72ffd05-16dc-4464-a060-35f8cc845a6f","categoryName":"test","categoryDescription":"test","createdDate":1560380606000,"updatedDate":1560380606000},{"categoryId":"214ce6f2-9755-41ee-9dc0-576ceeea1182","categoryName":"test","categoryDescription":"test","createdDate":1560380635000,"updatedDate":1560380635000},{"categoryId":"6694069b-3f46-407b-8018-10d557a96273","categoryName":"test","categoryDescription":"test","createdDate":1560380661000,"updatedDate":1560380661000},{"categoryId":"349d76c0-0882-43ee-86c5-5d571efba4a4","categoryName":"test","categoryDescription":"test","createdDate":1560380678000,"updatedDate":1560380678000},{"categoryId":"562f3120-1556-4849-8e2f-8daeb22d129a","categoryName":"string","categoryDescription":"string","createdDate":1560380688000,"updatedDate":1560380688000},{"categoryId":"664b7425-d84a-45b3-9eac-aecab2a415d0","categoryName":"test","categoryDescription":"test","createdDate":1560380890000,"updatedDate":1560380890000},{"categoryId":"78f731ba-7313-4b6e-8259-fbbf9420d35b","categoryName":"test","categoryDescription":"test","createdDate":1560383593000,"updatedDate":1560383593000}]},"errorCode":null,"extras":{},"successCode":"CATEGORIES_FETCH_SUCCESS","paramErrors":null}
+
+16:53:13.728 [print] response: {
+  "success": true,
+  "message": "Categories fetch success",
+  "data": {
+    "response": [
+      {
+        "categoryId": "7027acc7-90a8-48a5-90c9-de94e743cf01",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560288671000,
+        "updatedDate": 1560288671000
+      },
+      {
+        "categoryId": "02eb03a0-10eb-4c56-ae0f-449924cca179",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560289884000,
+        "updatedDate": 1560289884000
+      },
+      {
+        "categoryId": "86a31e50-840f-4892-a7b7-b3414b89fb0b",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560289891000,
+        "updatedDate": 1560289891000
+      },
+      {
+        "categoryId": "a2a7d1a6-5e96-4ff3-943d-9b7fd1e4c850",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560290235000,
+        "updatedDate": 1560290235000
+      },
+      {
+        "categoryId": "164abfc9-4e99-49bd-ae7c-7fdfad2ab8b9",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560290279000,
+        "updatedDate": 1560290279000
+      },
+      {
+        "categoryId": "240af01a-7441-400f-8adc-23177b682fc2",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560290370000,
+        "updatedDate": 1560290370000
+      },
+      {
+        "categoryId": "d88b8d99-eb11-4f98-ab91-b671c3168ff7",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560298875000,
+        "updatedDate": 1560298875000
+      },
+      {
+        "categoryId": "05206ee8-ff0f-4ef4-ac20-1fd934e15ef1",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560298902000,
+        "updatedDate": 1560298902000
+      },
+      {
+        "categoryId": "81611321-b41f-4ea5-92dc-a6b2a7d9eef3",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560298928000,
+        "updatedDate": 1560298928000
+      },
+      {
+        "categoryId": "26512200-4841-4770-90db-f796b98624be",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560299381000,
+        "updatedDate": 1560299381000
+      },
+      {
+        "categoryId": "5d726443-39bc-49cc-b2ef-e0a4b0651a6d",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560299482000,
+        "updatedDate": 1560299482000
+      },
+      {
+        "categoryId": "05b658ea-4fef-4dbb-a59f-42c86ff261f2",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560299703000,
+        "updatedDate": 1560299703000
+      },
+      {
+        "categoryId": "6f09a8bd-478f-4695-98f2-a8b93aba215c",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560300018000,
+        "updatedDate": 1560300018000
+      },
+      {
+        "categoryId": "ba05b4bc-3f17-4fb5-90e5-550846cc8c5f",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560300106000,
+        "updatedDate": 1560300106000
+      },
+      {
+        "categoryId": "98d72ff6-5b7b-48e9-bca3-30938716c75e",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560300791000,
+        "updatedDate": 1560300791000
+      },
+      {
+        "categoryId": "d9d068b3-be93-4dc2-acd4-0b731e303c18",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560300863000,
+        "updatedDate": 1560300863000
+      },
+      {
+        "categoryId": "afd8f344-e471-450d-bca4-65d0393bdc95",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560302812000,
+        "updatedDate": 1560302812000
+      },
+      {
+        "categoryId": "4205afa0-740a-492d-b577-1ed28014c110",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560302942000,
+        "updatedDate": 1560302942000
+      },
+      {
+        "categoryId": "4c107da9-ce12-4f40-b367-a0c439cbc9eb",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560303053000,
+        "updatedDate": 1560303053000
+      },
+      {
+        "categoryId": "a37ab7df-baae-4ae9-9654-6cd125e7d3e4",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560303212000,
+        "updatedDate": 1560303212000
+      },
+      {
+        "categoryId": "bb0643fe-e6db-4c8f-a0f9-6b8e2b439f0a",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560303406000,
+        "updatedDate": 1560303406000
+      },
+      {
+        "categoryId": "361946df-23a8-47e7-913d-8c027e3c4e00",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560303594000,
+        "updatedDate": 1560303594000
+      },
+      {
+        "categoryId": "9be4fccd-dae3-42ad-8a64-d602b275a1ef",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560304112000,
+        "updatedDate": 1560304112000
+      },
+      {
+        "categoryId": "53fc0219-c2b5-4f35-b9c3-04f7e02ab39d",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560304509000,
+        "updatedDate": 1560304509000
+      },
+      {
+        "categoryId": "a67a8b81-f33d-4512-af54-99de0f2e7634",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560304654000,
+        "updatedDate": 1560304654000
+      },
+      {
+        "categoryId": "0b8ca09f-5f41-44cf-819a-5310b2d6635d",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560304716000,
+        "updatedDate": 1560304716000
+      },
+      {
+        "categoryId": "89a3179a-9414-4557-9e95-e67e76fcefa2",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560304873000,
+        "updatedDate": 1560304873000
+      },
+      {
+        "categoryId": "00dbe702-7eea-4ffb-afa5-ea8b351d2bc0",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560304902000,
+        "updatedDate": 1560304902000
+      },
+      {
+        "categoryId": "9bd3ed13-3a2c-4e48-96af-8b7c57e9a066",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560363967000,
+        "updatedDate": 1560363967000
+      },
+      {
+        "categoryId": "0b322d99-4a66-451c-9439-c7292e7f5b28",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560364106000,
+        "updatedDate": 1560364106000
+      },
+      {
+        "categoryId": "4e94144c-ad56-42b5-a4d3-6399f96dbcb6",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560364161000,
+        "updatedDate": 1560364161000
+      },
+      {
+        "categoryId": "cdebb39d-9e01-4068-a579-fd8ef9c8d8cb",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560364728000,
+        "updatedDate": 1560364728000
+      },
+      {
+        "categoryId": "8538644e-3c17-42b9-87b9-0e8637932f8f",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560364767000,
+        "updatedDate": 1560364767000
+      },
+      {
+        "categoryId": "1416300a-7ec1-4f69-9f6a-53194b2859bc",
+        "categoryName": "Testcategory",
+        "categoryDescription": "Testcategory",
+        "createdDate": 1560364823000,
+        "updatedDate": 1560364823000
+      },
+      {
+        "categoryId": "259ba07c-1c78-4d47-bbda-195ca6071125",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560366268000,
+        "updatedDate": 1560366268000
+      },
+      {
+        "categoryId": "27390d1d-b4d3-4f65-b40a-ffaaddec5703",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560373981000,
+        "updatedDate": 1560373981000
+      },
+      {
+        "categoryId": "7e9f82ad-85b1-4a85-9b5a-ee4c0e60d620",
+        "categoryName": "json.data.categoryName",
+        "categoryDescription": "json.data.categoryDescription",
+        "createdDate": 1560374105000,
+        "updatedDate": 1560374105000
+      },
+      {
+        "categoryId": "3ffad5fa-3cc0-4fe1-ab9d-b773d9b40435",
+        "categoryName": "json.data.categoryName",
+        "categoryDescription": "json.data.categoryDescription",
+        "createdDate": 1560374147000,
+        "updatedDate": 1560374147000
+      },
+      {
+        "categoryId": "ad90dc3f-d216-4c4d-bcb9-b63d01f910c0",
+        "categoryName": "json.categoryName",
+        "categoryDescription": "json.categoryDescription",
+        "createdDate": 1560374173000,
+        "updatedDate": 1560374173000
+      },
+      {
+        "categoryId": "70561927-f519-4985-a252-f2c51bc7cf87",
+        "categoryName": "json.categoryName",
+        "categoryDescription": "json.categoryDescription",
+        "createdDate": 1560374248000,
+        "updatedDate": 1560374248000
+      },
+      {
+        "categoryId": "fa477a0d-7a57-4b27-af2b-96018e1d5a61",
+        "categoryName": "json.categoryName",
+        "categoryDescription": "json.categoryDescription",
+        "createdDate": 1560374375000,
+        "updatedDate": 1560374375000
+      },
+      {
+        "categoryId": "e8d3dceb-46ad-41ee-b3dc-cc22c7cc85c6",
+        "categoryName": "<myJson.data.categoryName>",
+        "categoryDescription": "<myJson.data.categoryDescription>",
+        "createdDate": 1560374497000,
+        "updatedDate": 1560374497000
+      },
+      {
+        "categoryId": "140912b5-9f3c-4a6f-9869-cde5a8772904",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560374654000,
+        "updatedDate": 1560374654000
+      },
+      {
+        "categoryId": "d8b7c73c-e8fc-4719-95bc-42f680a7754f",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560375974000,
+        "updatedDate": 1560375974000
+      },
+      {
+        "categoryId": "63b190a9-7f26-4d7f-98ce-3b94a9244977",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560376212000,
+        "updatedDate": 1560376212000
+      },
+      {
+        "categoryId": "2d2f0724-01fa-4d2d-b3fe-bbab2e8c988d",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560377159000,
+        "updatedDate": 1560377159000
+      },
+      {
+        "categoryId": "580b1107-00dd-4ec0-991b-d02757a23e57",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560377393000,
+        "updatedDate": 1560377393000
+      },
+      {
+        "categoryId": "ac61f072-21ac-4c46-8683-47da3c18fab7",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560377651000,
+        "updatedDate": 1560377651000
+      },
+      {
+        "categoryId": "01f117ae-7982-4893-85cd-d34d2d062497",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560378292000,
+        "updatedDate": 1560378292000
+      },
+      {
+        "categoryId": "bbadfb51-3de0-496d-a59e-ab12fd73902a",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560378555000,
+        "updatedDate": 1560378555000
+      },
+      {
+        "categoryId": "88419957-7729-4b36-af68-01f6e2eff15a",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560378659000,
+        "updatedDate": 1560378659000
+      },
+      {
+        "categoryId": "fdd4da0e-0891-43a1-85ab-e76e815d8dc7",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560378783000,
+        "updatedDate": 1560378783000
+      },
+      {
+        "categoryId": "4fcae878-265f-4ddc-84f8-165516f507d7",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560378837000,
+        "updatedDate": 1560378837000
+      },
+      {
+        "categoryId": "e543e2b7-7630-44ff-a5eb-52fd924a6d23",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560378868000,
+        "updatedDate": 1560378868000
+      },
+      {
+        "categoryId": "7faab862-e14a-40a9-8c53-e9ff33b6aebf",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560378938000,
+        "updatedDate": 1560378938000
+      },
+      {
+        "categoryId": "206171a5-2e83-42dd-a8ef-d3bc7f030fe5",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560378979000,
+        "updatedDate": 1560378979000
+      },
+      {
+        "categoryId": "a38e4d7b-9f8e-468d-ab0c-87d025a19f57",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560379095000,
+        "updatedDate": 1560379095000
+      },
+      {
+        "categoryId": "f9a9f6c5-8d81-4e4c-8da8-457270459924",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560379150000,
+        "updatedDate": 1560379150000
+      },
+      {
+        "categoryId": "5ad4546f-3a87-4940-b249-1d9046433a52",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560379341000,
+        "updatedDate": 1560379341000
+      },
+      {
+        "categoryId": "5dfe2ff2-f933-4537-8e5f-c4250a86e93c",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560380102000,
+        "updatedDate": 1560380102000
+      },
+      {
+        "categoryId": "bdaf8e5a-7247-4a94-b232-fb1e6989cab8",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560380271000,
+        "updatedDate": 1560380271000
+      },
+      {
+        "categoryId": "f3427618-20a5-4cfd-83f4-8394b8c0b392",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560380352000,
+        "updatedDate": 1560380352000
+      },
+      {
+        "categoryId": "f51e3d0d-31e1-4a02-a0d8-f65eed2af66d",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560380462000,
+        "updatedDate": 1560380462000
+      },
+      {
+        "categoryId": "8569f807-b930-46da-bf5f-d73030875a7e",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560380586000,
+        "updatedDate": 1560380586000
+      },
+      {
+        "categoryId": "d72ffd05-16dc-4464-a060-35f8cc845a6f",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560380606000,
+        "updatedDate": 1560380606000
+      },
+      {
+        "categoryId": "214ce6f2-9755-41ee-9dc0-576ceeea1182",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560380635000,
+        "updatedDate": 1560380635000
+      },
+      {
+        "categoryId": "6694069b-3f46-407b-8018-10d557a96273",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560380661000,
+        "updatedDate": 1560380661000
+      },
+      {
+        "categoryId": "349d76c0-0882-43ee-86c5-5d571efba4a4",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560380678000,
+        "updatedDate": 1560380678000
+      },
+      {
+        "categoryId": "562f3120-1556-4849-8e2f-8daeb22d129a",
+        "categoryName": "string",
+        "categoryDescription": "string",
+        "createdDate": 1560380688000,
+        "updatedDate": 1560380688000
+      },
+      {
+        "categoryId": "664b7425-d84a-45b3-9eac-aecab2a415d0",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560380890000,
+        "updatedDate": 1560380890000
+      },
+      {
+        "categoryId": "78f731ba-7313-4b6e-8259-fbbf9420d35b",
+        "categoryName": "test",
+        "categoryDescription": "test",
+        "createdDate": 1560383593000,
+        "updatedDate": 1560383593000
+      }
+    ]
+  },
+  "errorCode": null,
+  "extras": {
+  },
+  "successCode": "CATEGORIES_FETCH_SUCCESS",
+  "paramErrors": null
+}
+

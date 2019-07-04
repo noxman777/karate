@@ -1,0 +1,22 @@
+03:32:50.157 karate.env system property was: null 
+03:32:50.237 [print] {
+  "URL_POST": "http://103.79.223.60:8080/hooker/core/v1/categories",
+  "URL_GET": "http://103.79.223.60:8080/hooker/core/v1/categories/all",
+  "data": {
+    "categoryName": "newCategory",
+    "categoryDescription": "test"
+  },
+  "contenType": {
+    "Content-Type": "application/json"
+  }
+}
+
+"
+  }
+}
+
+   "d": "e"
+    }
+  ]
+}
+

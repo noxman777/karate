@@ -1,0 +1,16 @@
+12:58:46.980 karate.env system property was: null 
+12:58:47.048 feature call failed: classpath:dataStorage.feature
+arg: {writekey=test1, value=test5}
+dataStorage.feature:5 - javascript evaluation failed: Data.read(readkey), ReferenceError: "readkey" is not defined in <eval> at line number 1
+pp.id",
+  "anotherUrlBase": "https://another-host.com/v1/",
+  "appSecret": "my.secret",
+  "Data": examples.DataStorage@30bce90b,
+  "value": "test4",
+  "__loop": -1,
+  "write": null
+}
+
+1
+}
+

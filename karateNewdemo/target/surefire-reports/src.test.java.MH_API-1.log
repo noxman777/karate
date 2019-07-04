@@ -1,0 +1,25 @@
+16:47:08.468 karate.env system property was: null 
+16:47:08.791 request:
+1 > POST https://ray.mhqa.pub:8443/heartbeat/icapi/open/auth
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YmludTE6TTYvejQ2M2REMHkwTmVZSFRTVUdBdz09
+1 > Connection: Keep-Alive
+1 > Content-Length: 65
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: ray.mhqa.pub:8443
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_144)
+[{"key":"grant_type","value":"client_credentials","type":"text"}]
+
+16:47:10.302 response time in milliseconds: 1510.00
+1 < 500
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization, Checksum
+1 < Access-Control-Allow-Origin: *
+1 < Cache-Control: no-store
+1 < Connection: close
+1 < Content-Length: 112
+1 < Content-Type: application/json
+1 < Date: Mon, 24 Jun 2019 11:17:10 GMT
+1 < Pragma: no-cache
+1 < Set-Cookie: BIGipServerDAVQAHA-Ray_8080=2013989386.36895.0000; path=/; Httponly; Secure
+{"success":false,"status":"FAILURE","errMsg":"java.lang.NullPointerException","userMsg":"Internal Server Error"}
+

@@ -1,0 +1,50 @@
+12:10:49.998 karate.env system property was: null 
+12:10:50.060 [print] the value of txt is: http://103.79.223.60:8080/hooker/core/v1/categories
+12:10:50.060 [print] the value of txt.cat is: http://103.79.223.60:8080/hooker/core/v1/categories
+12:10:50.060 [print] request:
+12:10:50.563 request:
+1 > POST http://103.79.223.60:8080/hooker/core/v1/categories
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 103.79.223.60:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_144)
+{"categoryName":"test","categoryDescription":"test"}
+
+12:10:50.684 response time in milliseconds: 118.47
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 14 Jun 2019 06:40:50 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"success":true,"message":"categories added.","data":{"categoryId":"fb74db46-dd08-4ae4-8564-8191125bfcb0","categoryName":"test","categoryDescription":"test","createdDate":1560453050000,"updatedDate":1560453050000},"errorCode":null,"extras":{},"successCode":"CATEGORIES_CREATE_SUCCESS","paramErrors":null}
+
+ramErrors":null}
+
+mErrors":null}
+
+ Cannot deserialize instance of `com.awh.hooker.core.request.entity.CategoriesRequest` out of START_ARRAY token\n at [Source: (PushbackInputStream); line: 1, column: 1]","path":"/hooker/core/v1/categories"}
+
+20:07:17.622 status code was: 400, expected: 200, response time: 32, url: http://103.79.223.60:8080/hooker/core/v1/categories, response: {"timestamp":1560436637613,"status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `com.awh.hooker.core.request.entity.CategoriesRequest` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.awh.hooker.core.request.entity.CategoriesRequest` out of START_ARRAY token\n at [Source: (PushbackInputStream); line: 1, column: 1]","path":"/hooker/core/v1/categories"}
+se time in milliseconds: 33.37
+1 < 400
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 13 Jun 2019 14:31:44 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":1560436304271,"status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `com.awh.hooker.core.request.entity.CategoriesRequest` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.awh.hooker.core.request.entity.CategoriesRequest` out of START_ARRAY token\n at [Source: (PushbackInputStream); line: 1, column: 1]","path":"/hooker/core/v1/categories"}
+
+20:01:44.277 status code was: 400, expected: 200, response time: 33, url: http://103.79.223.60:8080/hooker/core/v1/categories, response: {"timestamp":1560436304271,"status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `com.awh.hooker.core.request.entity.CategoriesRequest` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.awh.hooker.core.request.entity.CategoriesRequest` out of START_ARRAY token\n at [Source: (PushbackInputStream); line: 1, column: 1]","path":"/hooker/core/v1/categories"}
+}

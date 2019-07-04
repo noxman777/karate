@@ -1,0 +1,32 @@
+17:32:01.220 [print] Basic YmludTE6TTYvejQ2M2REMHkwTmVZSFRTVUdBdz09
+17:32:01.221 request:
+1 > POST https://ray.mhqa.pub:8443/heartbeat/icapi/open/auth
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YmludTE6TTYvejQ2M2REMHkwTmVZSFRTVUdBdz09
+1 > Connection: Keep-Alive
+1 > Content-Length: 29
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: ray.mhqa.pub:8443
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_144)
+grant_type=client_credentials
+
+17:32:02.031 response time in milliseconds: 809.86
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization, Checksum
+1 < Access-Control-Allow-Origin: *
+1 < Cache-Control: no-store
+1 < Content-Length: 96
+1 < Content-Type: application/json
+1 < Date: Tue, 25 Jun 2019 12:02:01 GMT
+1 < Pragma: no-cache
+1 < Set-Cookie: BIGipServerDAVQAHA-Ray_8080=1997212170.36895.0000; path=/; Httponly; Secure
+{"access_token":"340f647c-39cc-4d18-9f59-ccc399ee4905","token_type":"Bearer","expires_in":86400}
+
+17:32:02.033 [print] response: {
+  "access_token": "340f647c-39cc-4d18-9f59-ccc399ee4905",
+  "token_type": "Bearer",
+  "expires_in": 86400
+}
+
+
+ps://ray.mhqa.pub:8443/heartbeat/icapi/open/auth, response: {"success":false,"status":"FAILURE","errMsg":"java.lang.ArrayIndexOutOfBoundsException: 31","userMsg":"Internal Server Error"}

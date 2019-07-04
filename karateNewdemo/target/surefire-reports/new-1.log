@@ -1,0 +1,11 @@
+14:11:12.721 karate.env system property was: null 
+14:11:12.771 [print] the value of myJson is: {
+  "foo": "bar",
+  "baz": [
+    1,
+    2,
+    3
+  ]
+}
+
+14:11:12.781 assertion failed: assert evaluated to false: cat.scores[1] == 6

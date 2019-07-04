@@ -1,0 +1,14 @@
+<testsuite failures="0" name="csvfileread.feature" skipped="0" tests="1" time="0.72612">
+  <testcase classname="csvfileread" name="Verify Create Category" time="0.72612">
+    <system-out>Given def csv = read('file:C:/Users/cy0099/IdeaProjects/karateNewdemo/src/test/java/utils/ttt.csv') . passed
+* print 'the value of txt is:', csv ....................................... passed
+* print 'the value of txt.cat is:', csv[0] ................................ passed
+And url csv[0].URL ........................................................ passed
+And request {"categoryName":csv[0].categoryName,"categoryDescription":csv[0].categoryDescription} . passed
+And header Content-Type = 'application/json' .............................. passed
+* print 'request:', request ............................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* def res = response ...................................................... passed</system-out>
+  </testcase>
+</testsuite>
